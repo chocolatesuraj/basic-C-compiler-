@@ -1,0 +1,8 @@
+/*
+ flex lexer.l 
+ gcc lex.yy.c 
+.\a.exe  
+
+bison -d parser.y
+gcc lex.yy.c parser.tab.c
+*/

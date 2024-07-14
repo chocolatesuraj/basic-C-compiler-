@@ -1,0 +1,31 @@
+t1=a > b
+if t1 goto L1
+  goto L2
+L1:
+t2=a + 1
+a=t2    
+t3=b - 1
+b=t3    
+t4=a > b
+if t4 goto L3
+  goto L4
+L3:
+t5=a + 1
+a=t5    
+t6=b - 1
+b=t6    
+L4:
+  goto L5
+t7=a - 1
+a=t7    
+t8=b - 1
+b=t8    
+L5:
+L2:
+  goto L6
+t9=a - 1
+a=t9    
+t10=b - 1
+b=t10    
+L6:
+a=0    
